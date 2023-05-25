@@ -36,7 +36,7 @@ const Auth = () => {
     function start() {
       gapi.client.init({
         clientId:
-          "26904620283-2cma6ao0vtuseuvh7klubi6g6trsl784.apps.googleusercontent.com",
+          "384997687285-bs6oaec0ftaso2361a4k8meedg35m894.apps.googleusercontent.com",
         scope: "email",
       });
     }
@@ -153,7 +153,7 @@ const Auth = () => {
             {isSignup ? "Sign Up" : "Sign In"}
           </Button>
           <GoogleLogin
-            clientId="26904620283-2cma6ao0vtuseuvh7klubi6g6trsl784.apps.googleusercontent.com"
+            clientId="384997687285-bs6oaec0ftaso2361a4k8meedg35m894.apps.googleusercontent.com"
             render={(renderProps) => (
               <Button
                 className={classes.googleButton}
